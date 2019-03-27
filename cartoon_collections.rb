@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(powers)
   powers.map do |x|
-    x.first.upcase << "!"
+    x.capitalize << "!"
   end
 end
 
